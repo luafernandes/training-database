@@ -37,7 +37,7 @@ WHERE nome LIKE '%silva';
 SELECT * FROM gafanhotos
 WHERE nome LIKE '%_silva%';
 
--- Distinguindo (únicos)
+-- Distinguindo: cosidera uma ocorrência de cada valor
 SELECT DISTINCT nacionalidade FROM gafanhotos
 ORDER BY nacionalidade;
 
